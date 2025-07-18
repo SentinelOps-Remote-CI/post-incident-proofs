@@ -15,26 +15,13 @@ We take security vulnerabilities seriously. If you discover a security issue in 
 
 Security vulnerabilities should be reported privately to prevent exploitation.
 
-### 2. Email Security Team
-
-Send an email to: `security@your-org.com`
-
-Include the following information:
-
-- **Description**: Clear description of the vulnerability
-- **Impact**: Potential impact of the vulnerability
-- **Steps to Reproduce**: Detailed steps to reproduce the issue
-- **Proof of Concept**: If available, include a proof of concept
-- **Affected Versions**: Which versions are affected
-- **Suggested Fix**: If you have suggestions for fixing the issue
-
-### 3. Response Timeline
+### 2. Response Timeline
 
 - **Initial Response**: Within 48 hours
 - **Status Update**: Within 7 days
 - **Resolution**: Within 30 days (depending on complexity)
 
-### 4. Disclosure Policy
+### 3. Disclosure Policy
 
 - Vulnerabilities will be disclosed publicly after a fix is available
 - Credit will be given to reporters in the security advisory
@@ -101,12 +88,6 @@ We follow responsible disclosure practices:
 2. **Timely Response**: Quick response to security reports
 3. **Coordinated Release**: Fixes released with security advisories
 4. **Credit Given**: Proper attribution to security researchers
-
-## Contact Information
-
-- **Security Email**: security@your-org.com
-- **PGP Key**: [Available upon request]
-- **Security Team**: Post-Incident-Proofs Security Team
 
 ## Acknowledgments
 

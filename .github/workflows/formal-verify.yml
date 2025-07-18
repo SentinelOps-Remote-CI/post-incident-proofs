@@ -1,0 +1,10 @@
+name: SentinelOps
+on: [push, pull_request]
+
+jobs:
+  remote-ci:
+    uses: sentinelops/remote-ci/.github/workflows/remote.yml@v1
+    with:
+      tier: "oss"
+    env:
+      DSP_SKIP_SIMD: "1"

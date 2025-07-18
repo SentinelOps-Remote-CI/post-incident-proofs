@@ -1,0 +1,30 @@
+name: "Post-Incident-Proofs Security Policy"
+version: "1.0.0"
+type: "security"
+description: "Security policies for post-incident-proofs system"
+
+rules:
+  - id: "SEC-001"
+    description: "All cryptographic operations must use approved algorithms"
+    severity: "high"
+    category: "cryptography"
+    
+  - id: "SEC-002"
+    description: "HMAC keys must be at least 256 bits"
+    severity: "critical"
+    category: "key-management"
+    
+  - id: "SEC-003"
+    description: "Rate limiting must be enabled for all public endpoints"
+    severity: "medium"
+    category: "rate-limiting"
+    
+  - id: "SEC-004"
+    description: "Log tampering detection must complete within 200ms"
+    severity: "high"
+    category: "logging"
+    
+  - id: "SEC-005"
+    description: "Bundle verification must be cryptographically signed"
+    severity: "critical"
+    category: "bundle-security" 

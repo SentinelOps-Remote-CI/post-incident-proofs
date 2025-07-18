@@ -1,0 +1,30 @@
+name: "Post-Incident-Proofs Compliance Policy"
+version: "1.0.0"
+type: "compliance"
+description: "Compliance policies for post-incident-proofs system"
+
+rules:
+  - id: "COMP-001"
+    description: "All log entries must include timestamp and monotonic counter"
+    severity: "high"
+    category: "logging-compliance"
+    
+  - id: "COMP-002"
+    description: "Bundle generation must include cryptographic proof of integrity"
+    severity: "critical"
+    category: "bundle-compliance"
+    
+  - id: "COMP-003"
+    description: "Rate limiting must have zero false negatives"
+    severity: "high"
+    category: "rate-limiting-compliance"
+    
+  - id: "COMP-004"
+    description: "Version control operations must be invertible"
+    severity: "medium"
+    category: "version-control-compliance"
+    
+  - id: "COMP-005"
+    description: "Observability metrics must be collected for all critical operations"
+    severity: "medium"
+    category: "observability-compliance" 

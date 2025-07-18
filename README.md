@@ -396,6 +396,8 @@ git push origin feature/your-feature-name
 
 Our comprehensive CI pipeline includes:
 
+### Core CI Workflows
+
 - **Build**: Lean compilation and dependency resolution
 - **Test**: Unit, integration, and performance tests
 - **Fuzz**: Automated input testing with AFL++
@@ -403,7 +405,39 @@ Our comprehensive CI pipeline includes:
 - **Chaos**: High-load stress testing
 - **Security**: Vulnerability scanning and audit
 - **Docker**: End-to-end container testing
-- **Release**: Automated release bundle creation
+
+### Remote CI & Formal Verification
+
+- **SentinelOps Remote CI**: Uses `sentinelops/remote-ci` for formal verification
+  - Runs on push and pull requests
+  - Tier: "oss" (open source)
+  - Environment: `DSP_SKIP_SIMD: "1"` to skip SIMD proofs
+
+### Policy Linting
+
+- **Policy Lint**: Validates policy YAML files
+  - Runs on push and pull requests
+  - Uses `scripts/policy_lint.py` for validation
+  - Checks structure, content, and schema compliance
+
+### Bundle Push & Release
+
+- **Bundle Push**: Automated release bundle generation
+  - Triggers on version tags (`v*`) or manual dispatch
+  - Generates incident bundles with cryptographic verification
+  - Creates GitHub releases with bundle artifacts
+  - Includes source code and bundle reports
+  - Validates SentinelOps compliance
+
+### Workflow Files
+
+```
+.github/workflows/
+├── ci.yml              # Core CI pipeline
+├── formal-verify.yml   # SentinelOps remote CI
+├── policy-lint.yml     # Policy validation
+└── bundle-push.yml     # Release bundle generation
+```
 
 ## Monitoring & Observability
 

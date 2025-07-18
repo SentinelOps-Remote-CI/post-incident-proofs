@@ -1,0 +1,11 @@
+# .github/workflows/policy-lint.yml
+name: Policy Lint
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          ./scripts/policy_lint.py policies/*.yaml
