@@ -2,7 +2,6 @@
 
 > **Transforms raw runtime telemetry into machine-checked forensic evidence—and proves that evidence can't be forged, lost, or silently falsified.**
 
-[![Build Status](https://github.com/your-org/post-incident-proofs/workflows/CI/badge.svg)](https://github.com/your-org/post-incident-proofs/actions)
 [![Lean Version](https://img.shields.io/badge/Lean-4.7.0-blue.svg)](https://leanprover.github.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Security: Tamper-Evident](https://img.shields.io/badge/Security-Tamper--Evident-green.svg)](https://github.com/your-org/post-incident-proofs/security)
