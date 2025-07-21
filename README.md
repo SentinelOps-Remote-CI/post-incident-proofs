@@ -4,7 +4,7 @@
 
 [![Lean Version](https://img.shields.io/badge/Lean-4.7.0-blue.svg)](https://leanprover.github.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Security: Tamper-Evident](https://img.shields.io/badge/Security-Tamper--Evident-green.svg)](https://github.com/your-org/post-incident-proofs/security)
+[![Security: Tamper-Evident](https://img.shields.io/badge/Security-Tamper--Evident-green.svg)](https://github.com/SentinelOps-Remote-CI/post-incident-proofs/security)
 
 ## North-Star Outcomes
 
@@ -77,7 +77,7 @@ post-incident-proofs/
 
 ```bash
 # Clone the repository
-git clone https://github.com/fraware/post-incident-proofs.git
+git clone https://github.com/SentinelOps-Remote-CI/post-incident-proofs.git
 
 # Install dependencies and build
 make install
@@ -237,7 +237,7 @@ def validate_bundle (bundle : IncidentBundle) : ValidationResult
 - **HTML timeline** with embedded SHA-256 hashes
 - **SentinelOps compliance** for audit workflows
 - **Cryptographic verification** of all components
-- **Automated upload** to S3/GitHub Releases
+- **Automated upload** to S3/ Releases
 
 ## Testing & Verification
 
@@ -374,9 +374,9 @@ services:
 
 ### Issue Templates
 
-- [Log Bug Report](.github/ISSUE_TEMPLATE/log_bug.md)
-- [Rate Limit Suggestion](.github/ISSUE_TEMPLATE/rate_suggestion.md)
-- [Rollback Issue](.github/ISSUE_TEMPLATE/rollback_issue.md)
+- [Log Bug Report](./ISSUE_TEMPLATE/log_bug.md)
+- [Rate Limit Suggestion](./ISSUE_TEMPLATE/rate_suggestion.md)
+- [Rollback Issue](./ISSUE_TEMPLATE/rollback_issue.md)
 
 ### Development Workflow
 
@@ -425,14 +425,14 @@ Our comprehensive CI pipeline includes:
 - **Bundle Push**: Automated release bundle generation
   - Triggers on version tags (`v*`) or manual dispatch
   - Generates incident bundles with cryptographic verification
-  - Creates GitHub releases with bundle artifacts
+  - Creates  releases with bundle artifacts
   - Includes source code and bundle reports
   - Validates SentinelOps compliance
 
 ### Workflow Files
 
 ```
-.github/workflows/
+./workflows/
 ├── ci.yml              # Core CI pipeline
 ├── formal-verify.yml   # SentinelOps remote CI
 ├── policy-lint.yml     # Policy validation
@@ -506,8 +506,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - **Documentation**: [docs/](docs/)
-- **Issues**: [GitHub Issues](https://github.com/your-org/post-incident-proofs/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/post-incident-proofs/discussions)
+- **Issues**: [GitHub Issues](https://github.com/SentinelOps-Remote-CI/post-incident-proofs/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/SentinelOps-Remote-CI/post-incident-proofs/discussions)
 - **Security**: [Security Policy](SECURITY.md)
 
 ---
