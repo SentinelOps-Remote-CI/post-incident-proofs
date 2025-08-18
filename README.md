@@ -4,7 +4,7 @@
 
 [![Lean Version](https://img.shields.io/badge/Lean-4.7.0-blue.svg)](https://leanprover.github.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Security: Tamper-Evident](https://img.shields.io/badge/Security-Tamper--Evident-green.svg)](https://github.com/SentinelOps-Remote-CI/post-incident-proofs/security)
+[![Security: Tamper-Evident](https://img.shields.io/badge/Security-Tamper--Evident-green.svg)](https://github.com/SentinelOps-CI/post-incident-proofs/security)
 
 ## North-Star Outcomes
 
@@ -77,7 +77,7 @@ post-incident-proofs/
 
 ```bash
 # Clone the repository
-git clone https://github.com/SentinelOps-Remote-CI/post-incident-proofs.git
+git clone https://github.com/SentinelOps-CI/post-incident-proofs.git
 
 # Install dependencies and build
 make install
@@ -506,8 +506,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - **Documentation**: [docs/](docs/)
-- **Issues**: [GitHub Issues](https://github.com/SentinelOps-Remote-CI/post-incident-proofs/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/SentinelOps-Remote-CI/post-incident-proofs/discussions)
+- **Issues**: [GitHub Issues](https://github.com/SentinelOps-CI/post-incident-proofs/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/SentinelOps-CI/post-incident-proofs/discussions)
 - **Security**: [Security Policy](SECURITY.md)
 
 ---
